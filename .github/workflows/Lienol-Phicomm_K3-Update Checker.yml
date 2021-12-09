@@ -12,7 +12,7 @@
 name: Lienol-Phicomm_K3-Update Checker
 
 env:
-  REPO_URL: https://github.com/Lienol/openwrt
+  REPO_URL: https://github.com/dzgogo/Lienol-openwrt
   REPO_BRANCH: main
 
 on:
@@ -20,7 +20,7 @@ on:
 #  schedule:
 #    - cron: 0 */18 * * *
   schedule:
-    - cron: 0 8 * * 5
+    - cron: 0 6 * * *
 
 jobs:
   check:
