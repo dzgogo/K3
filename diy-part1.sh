@@ -19,4 +19,4 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
 echo 'src-git gowebdav https://github.com/immortalwrt/openwrt-gowebdav' >>feeds.conf.default
-#echo 'src-git Hyy2001X https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
+echo 'src-git Hyy2001X https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
