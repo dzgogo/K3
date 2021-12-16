@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Lean-Phicomm_K3-Lite
+name: Lean-Phicomm_K3
 
 on:
   repository_dispatch:
