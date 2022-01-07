@@ -1,4 +1,4 @@
-# Lienol-Phicomm_K3-Lite.config
+# Lienol-Phicomm_K3_Lite.config
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 #
 # This is free software, licensed under the MIT License.
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/dzgogo/Lienol-openwrt
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: Lienol-Phicomm_K3-Lite.config
+  CONFIG_FILE: Lienol-Phicomm_K3_Lite.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
