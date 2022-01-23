@@ -21,7 +21,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: dzgogo/Lienol-openwrt
+  REPO_URL: https://github.com/dzgogo/Lienol-openwrt
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Phicomm_K1.config
