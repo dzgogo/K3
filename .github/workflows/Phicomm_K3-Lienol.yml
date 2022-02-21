@@ -157,7 +157,7 @@ jobs:
       id: tag
       if: env.UPLOAD_RELEASE == 'true' && !cancelled()
       run: |
-        echo "::set-output name=release_tag::"Phicomm_K3-Lienol-"$(date +"%Y.%m.%d-%H%M")"
+        echo "::set-output name=release_tag::(date +"%Y.%m.%d-%H%M")$"_Phicomm_K3_Lienol""
         touch release.txt
         [ $UPLOAD_COWTRANSFER = true ] && echo "🔗 [Cowtransfer](${{ steps.cowtransfer.outputs.url }})" >> release.txt
         [ $UPLOAD_WETRANSFER = true ] && echo "🔗 [WeTransfer](${{ steps.wetransfer.outputs.url }})" >> release.txt
