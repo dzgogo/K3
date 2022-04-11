@@ -17,6 +17,8 @@ env:
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: 2 */24 1 * *
 #  schedule:
 #    - cron: 0 */18 * * *
 #  schedule:
