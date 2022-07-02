@@ -23,4 +23,5 @@
 #echo 'src-git Hyy2001X https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
 #echo 'src-git usb3disable https://github.com/rufengsuixing/luci-app-usb3disable' >>feeds.conf.default
 
-git clone https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/aliyundrive
+echo 'src-git ken https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git KEN https://github.com/kenzok8/small' >>feeds.conf.default
