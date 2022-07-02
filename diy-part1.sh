@@ -22,3 +22,5 @@
 #echo 'src-git cloudreve https://github.com/tcsr200722/luci-app-cloudreve' >>feeds.conf.default
 #echo 'src-git Hyy2001X https://github.com/Hyy2001X/AutoBuild-Packages' >>feeds.conf.default
 #echo 'src-git usb3disable https://github.com/rufengsuixing/luci-app-usb3disable' >>feeds.conf.default
+
+git clone https://github.com/jerrykuku/luci-app-go-aliyundrive-webdav package/aliyundrive
