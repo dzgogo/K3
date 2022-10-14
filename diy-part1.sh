@@ -26,5 +26,5 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #echo 'src-git alist https://github.com/sbwml/luci-app-alist' >>feeds.conf.default
-echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
+#echo 'src-git netspeedtest https://github.com/sirpdboy/netspeedtest' >>feeds.conf.default
 #echo 'src-git webdav https://github.com/selfcan/Luci-app-webdav' >>feeds.conf.default 出错
