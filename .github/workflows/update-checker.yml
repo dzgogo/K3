@@ -15,10 +15,10 @@ env:
   REPO_URL: https://github.com/Lienol/openwrt
   REPO_BRANCH: 21.02
 
-on:
-  workflow_dispatch:
-  schedule:
-    - cron: 2 */24 1 * *
+#on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: 2 */24 1 * *
 #  schedule:
 #    - cron: 0 */18 * * *
 #  schedule:
